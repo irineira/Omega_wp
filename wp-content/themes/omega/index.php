@@ -7,7 +7,7 @@
     <meta content="" name="keywords">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta content="ie-edge" http-equiv="x-ua-compatible">
-    <link rel="stylesheet" href="http://sanya.test/wp-content/themes/omega/styles/app.min.css?7">
+    <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/styles/app.min.css?7">
   </head>
   <body>
     <div class="content">
@@ -15,7 +15,7 @@
         <div class="wrapper">
           <div class="header__content">
             <div class="header__left">
-              <div class="header__logo"><a href="/"><img src="http://sanya.test/wp-content/themes/omega/images/i/logo.svg" alt=""></a></div>
+              <div class="header__logo"><a href="/"><img src="<?php bloginfo("template_directory"); ?>/images/i/logo.svg" alt=""></a></div>
             </div>
             <div class="header__right">
               <div class="header__select"> 
@@ -62,11 +62,11 @@
         <div class="wrapper">
           <div class="sect1__content">
             <div class="sect1__left">
-              <div class="sect1__descblock"><img src="http://sanya.test/wp-content/themes/omega/images/header-text-desktop.png" alt=""><img src="http://sanya.test/wp-content/themes/omega/images/header-text-mobile.png" alt=""></div>
-              <div class="sect1__buttonblock"><a class="scroll_bottom" href="#three"> <span>read our story</span><img src="http://sanya.test/wp-content/themes/omega/images/arr_bot.png" alt=""></a></div>
+              <div class="sect1__descblock"><img src="<?php bloginfo("template_directory"); ?>/images/header-text-desktop.png" alt=""><img src="<?php bloginfo("template_directory"); ?>/images/header-text-mobile.png" alt=""></div>
+              <div class="sect1__buttonblock"><a class="scroll_bottom" href="#three"> <span>read our story</span><img src="<?php bloginfo("template_directory"); ?>/images/arr_bot.png" alt=""></a></div>
             </div>
             <div class="sect1__right">
-              <div class="sect1__imgblock"><img src="http://sanya.test/wp-content/themes/omega/images/container-mockup.png" alt=""></div>
+              <div class="sect1__imgblock"><img src="<?php bloginfo("template_directory"); ?>/images/container-mockup.png" alt=""></div>
             </div>
           </div>
         </div>
@@ -91,19 +91,19 @@
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
                       <div class="sect3__itemblock">
-                        <div class="sect3__icon"><img src="http://sanya.test/wp-content/themes/omega/images/i/icon-no-fish.svg" alt=""></div>
+                        <div class="sect3__icon"><img src="<?php bloginfo("template_directory"); ?>/images/i/icon-no-fish.svg" alt=""></div>
                         <div class="sect3__title"> <span>  No Fish, <br>no Toxin  </span></div>
                       </div>
                     </div>
                     <div class="swiper-slide">   
                       <div class="sect3__itemblock">
-                        <div class="sect3__icon"><img src="http://sanya.test/wp-content/themes/omega/images/i/icon-directly-from-source.svg" alt=""></div>
+                        <div class="sect3__icon"><img src="<?php bloginfo("template_directory"); ?>/images/i/icon-directly-from-source.svg" alt=""></div>
                         <div class="sect3__title"> <span>  Directly from <br>the source</span></div>
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="sect3__itemblock">
-                        <div class="sect3__icon"><img src="http://sanya.test/wp-content/themes/omega/images/i/icon-sustainable.svg" alt=""></div>
+                        <div class="sect3__icon"><img src="<?php bloginfo("template_directory"); ?>/images/i/icon-sustainable.svg" alt=""></div>
                         <div class="sect3__title"> <span>  Sustainable, <br>for the planet</span></div>
                       </div>
                     </div>
@@ -121,7 +121,7 @@
         <div class="wrapper">
           <div class="sect4__content"> 
             <div class="sect4__titleblock"><span class="title"><?php the_field('sect_3_title'); ?></span></div>
-            <div class="sect4__infoblock"><img src="http://sanya.test/wp-content/themes/omega/images/dailys-process-copy.png" alt=""></div>
+            <div class="sect4__infoblock"><img src="<?php bloginfo("template_directory"); ?>/images/dailys-process-copy.png" alt=""></div>
           </div>
         </div>
       </section>
@@ -163,7 +163,7 @@
                 <div class="questionitem"> 
                   <div class="questionitem__top">
                     <div class="questionitem__title"><span><?php the_field('question_1'); ?></span></div>
-                    <div class="questionitem__icon"><img src="http://sanya.test/wp-content/themes/omega/images/arr_left.png" alt=""></div>
+                    <div class="questionitem__icon"><img src="<?php bloginfo("template_directory"); ?>/images/arr_left.png" alt=""></div>
                   </div>
                   <div class="questionitem__bottom hidden">
                     <div class="questionitem__text">
@@ -174,7 +174,7 @@
                 <div class="questionitem"> 
                   <div class="questionitem__top">
                     <div class="questionitem__title"><span><?php the_field('question_2'); ?></span></div>
-                    <div class="questionitem__icon"><img src="http://sanya.test/wp-content/themes/omega/images/arr_left.png" alt=""></div>
+                    <div class="questionitem__icon"><img src="<?php bloginfo("template_directory"); ?>/images/arr_left.png" alt=""></div>
                   </div>
                   <div class="questionitem__bottom hidden">
                     <div class="questionitem__text">
@@ -185,7 +185,7 @@
                 <div class="questionitem"> 
                   <div class="questionitem__top">
                     <div class="questionitem__title"><span><?php the_field('question_3'); ?></span></div>
-                    <div class="questionitem__icon"><img src="http://sanya.test/wp-content/themes/omega/images/arr_left.png" alt=""></div>
+                    <div class="questionitem__icon"><img src="<?php bloginfo("template_directory"); ?>/images/arr_left.png" alt=""></div>
                   </div>
                   <div class="questionitem__bottom hidden">
                     <div class="questionitem__text">
@@ -240,12 +240,12 @@
       <footer class="footer">
         <div class="wrapper">
           <div class="footer__content">
-            <div class="footer__logo"><a href="/"><img src="http://sanya.test/wp-content/themes/omega/images/i/logo.svg" alt=""></a></div>
+            <div class="footer__logo"><a href="/"><img src="<?php bloginfo("template_directory"); ?>/images/i/logo.svg" alt=""></a></div>
             <div class="footer__social">
-              <a href="<?php the_field('linkedin'); ?>"><img src="http://sanya.test/wp-content/themes/omega/images/iconmonstr-linkedin-1-240.png" alt="" style="padding-bottom: 2px;"></a>
-              <a href="<?php the_field('twitter'); ?>"><img src="http://sanya.test/wp-content/themes/omega/images/iconmonstr-twitter-1-240.png" alt=""></a>
-              <a href="<?php the_field('instagram'); ?>"><img src="http://sanya.test/wp-content/themes/omega/images/iconmonstr-instagram-11-240.png" alt=""></a>
-              <a href="<?php the_field('facebook'); ?>"><img src="http://sanya.test/wp-content/themes/omega/images/iconmonstr-facebook-6-240.png" alt=""></a>
+              <a href="<?php the_field('linkedin'); ?>"><img src="<?php bloginfo("template_directory"); ?>/images/iconmonstr-linkedin-1-240.png" alt="" style="padding-bottom: 2px;"></a>
+              <a href="<?php the_field('twitter'); ?>"><img src="<?php bloginfo("template_directory"); ?>/images/iconmonstr-twitter-1-240.png" alt=""></a>
+              <a href="<?php the_field('instagram'); ?>"><img src="<?php bloginfo("template_directory"); ?>/images/iconmonstr-instagram-11-240.png" alt=""></a>
+              <a href="<?php the_field('facebook'); ?>"><img src="<?php bloginfo("template_directory"); ?>/images/iconmonstr-facebook-6-240.png" alt=""></a>
             </div>
             <div class="footer__bottom">
               <a href="<?php the_field('privacy_statement'); ?>">Privacy Statement<?php the_field('option_m_1'); ?></a>
@@ -255,10 +255,10 @@
         </div>
       </footer>
     </div>
-    <script src="http://sanya.test/wp-content/themes/omega/dist/js/jquery-3.2.1.min.js?7"></script>
-    <script src="http://sanya.test/wp-content/themes/omega/dist/js/swiper.min.js?7"></script>
+    <script src="<?php bloginfo("template_directory"); ?>/dist/js/jquery-3.2.1.min.js?7"></script>
+    <script src="<?php bloginfo("template_directory"); ?>/dist/js/swiper.min.js?7"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpQfeIi-fXbljlaIQpl4FDYaY2DdZirEg"></script>
-    <script src="http://sanya.test/wp-content/themes/omega/scripts/app.js?7"></script>
+    <script src="<?php bloginfo("template_directory"); ?>/scripts/app.js?7"></script>
     <script>
       $(document).ready(() => {
 
