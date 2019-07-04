@@ -272,6 +272,31 @@
           }
       });
 
+
+      // map
+      (function initMap() {
+          var coordinates = {lat: 46.477807, lng: 30.754870},  
+          
+          
+              map = new google.maps.Map(document.getElementById('map'), {
+                  center: coordinates,
+                  zoom: 12
+              });
+
+              var image = '<?php bloginfo("template_directory"); ?>/images/map-marker.svg';
+              marker = new google.maps.Marker({
+                  position: {lat: 46.476452, lng: 30.752942},
+                  map: map,
+                  icon: image
+              });
+
+              marker = new google.maps.Marker({
+                  position: {lat: 46.468941, lng: 30.760026},
+                  map: map,
+                  icon: image
+              });
+      })()
+
     </script>
 
 
