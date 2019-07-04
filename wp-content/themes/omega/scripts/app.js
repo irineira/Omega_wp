@@ -11,7 +11,7 @@ $(document).ready(() => {
                 zoom: 12
             });
 
-            var image = '<?php bloginfo("template_directory"); ?>/images/map-marker.svg';
+            var image = 'http://sanya.test/wp-content/themes/omega/images/map-marker.svg';
             marker = new google.maps.Marker({
                 position: {lat: 46.476452, lng: 30.752942},
                 map: map,
@@ -112,12 +112,12 @@ $(document).ready(() => {
                     if (NextScroll > CurrentScroll) {
                         $('.header').addClass('subheader_fix');
                         $('.header').css('box-shadow', '0px 8px 8px 0px rgba(0,0,0,0.45)');
-                        $('.header').css('background-image', 'url(<?php bloginfo("template_directory"); ?>/images/green_BG_1.jpg)');
+                        $('.header').css('background-image', 'url(http://sanya.test/wp-content/themes/omega/images/green_BG_1.jpg)');
                         $('.header').css('background-size', 'cover');
                     }
         
                     else {
-                        $('.header').css('background-image', 'url(<?php bloginfo("template_directory"); ?>/images/green_BG_1.jpg)');
+                        $('.header').css('background-image', 'url(http://sanya.test/wp-content/themes/omega/images/green_BG_1.jpg)');
                         $('.header').css('background-size', 'cover');
                         $('.header').addClass('subheader_fix'); 
                         $('.header').css('box-shadow', '0px 8px 8px 0px rgba(0,0,0,0.45)');
@@ -129,7 +129,7 @@ $(document).ready(() => {
         });
 
         if(pageYOffset > 0) {
-            $('.header').css('background-image', 'url(<?php bloginfo("template_directory"); ?>/images/green_BG_1.jpg)');
+            $('.header').css('background-image', 'url(http://sanya.test/wp-content/themes/omega/images/green_BG_1.jpg)');
             $('.header').css('background-size', 'cover');
             $('.header').css('box-shadow', '0px 8px 8px 0px rgba(0,0,0,0.45)');
             $('.header').addClass('subheader_fix');
@@ -149,3 +149,8 @@ $(document).ready(() => {
 
 
 });
+
+
+
+
+<script src="http://sanya.test/wp-content/themes/omega/scripts/app.js?7"></script>

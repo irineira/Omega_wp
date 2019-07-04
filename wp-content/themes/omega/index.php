@@ -259,6 +259,8 @@
     <script src="<?php bloginfo("template_directory"); ?>/dist/js/swiper.min.js?7"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpQfeIi-fXbljlaIQpl4FDYaY2DdZirEg"></script>
     <script src="<?php bloginfo("template_directory"); ?>/scripts/app.js?7"></script>
+    
+    
     <script>
       $(document).ready(() => {
 
@@ -269,6 +271,11 @@
               $('#item_3').html("<?php the_field('option_m_3'); ?>");
           }
       });
+
     </script>
+
+
+
+
   </body>
 </html>
